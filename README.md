@@ -1,16 +1,33 @@
-# what_weather
+# What Weather ☁
 
-A new Flutter project.
+> Weather App Built with Flutter and OpenWeatherMap API
+
+## 🚀 See Screenshots
+
+<details>
+<summary>See ScreenShots</summary>
+<img src="https://i.ibb.co/br7wntM/example-13.png" alt="" width=300></img>
+</details>
+
+[Download APK](https://github.com/mohammadhprp/what_weather/releases/)
 
 ## Getting Started
+1. To get started, fork this repository to your GitHub account.
 
-This project is a starting point for a Flutter application.
+2. Clone the repo.
+    ```sh
+     git clone https://github.com/mohammadhprp/what_weather/
+    ```
+3. Install packages.
+    ```sh
+     flutter pub get
+    ```
+4. Add OpenWeatherMap API KEY on lib/service/weather_service.dart
+  ```dart
+  var Key = "YOUR_API_KEY";
+  ```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+5. Run project.
+    ```sh
+     flutter run
+    ```
